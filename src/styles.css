@@ -29,7 +29,7 @@ body {
 p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.4;
 }
 
 .hero {
@@ -68,4 +68,15 @@ p {
   padding: 15px 30px;
   border-radius: 4px;
   border: 1px solid var(--background-button);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
